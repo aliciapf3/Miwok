@@ -60,6 +60,7 @@ public class Word {
      * Get the default translation of the word.
      */
     public String getDefaultTranslation() {
+
         return mDefaultTranslation;
     }
 
@@ -67,6 +68,7 @@ public class Word {
      * Get the Miwok translation of the word.
      */
     public String getMiwokTranslation() {
+
         return mMiwokTranslation;
     }
 
@@ -74,6 +76,7 @@ public class Word {
      * Return the image resource ID of the word.
      */
     public int getImageResourceId() {
+
         return mImageResourceId;
     }
 
@@ -81,6 +84,7 @@ public class Word {
      * Returns whether or not there is an image for this word.
      */
     public boolean hasImage() {
+
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
@@ -88,6 +92,7 @@ public class Word {
      * Return the audio resource ID of the word.
      */
     public int getAudioResourceId() {
+
         return mAudioResourceId;
     }
 
